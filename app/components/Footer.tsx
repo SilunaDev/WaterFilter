@@ -190,6 +190,19 @@ export default function Footer() {
               Contact Info
             </h3>
             
+            {/* Contact Details */}
+            <div className="mb-4 space-y-2">
+              <p className="text-gray-700 text-sm">
+                <span className="font-semibold">Phone:</span> +94 78 105 4154
+              </p>
+              <p className="text-gray-700 text-sm">
+                <span className="font-semibold">Phone:</span> +94 76 743 0369
+              </p>
+              <p className="text-gray-700 text-sm">
+                <span className="font-semibold">Email:</span> aquagreenwaters@gmail.com
+              </p>
+            </div>
+            
             {/* Social Media Icons */}
             <div className="flex gap-4 mb-4 justify-center md:justify-start">
               
@@ -253,7 +266,7 @@ export default function Footer() {
 
               {/* WhatsApp */}
               <a
-                href="https://wa.me/"
+                href="https://wa.me/94781054154"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Contact us on WhatsApp"
