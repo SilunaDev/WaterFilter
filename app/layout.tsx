@@ -20,6 +20,11 @@ export const metadata: Metadata = {
   title: "Aqua Green Waters | Pure Water, Pure Life",
   description:
     "Advanced RO water purification systems for homes and businesses in Sri Lanka. Safe, clean, and great-tasting water every day.",
+  icons: {
+    icon: '/logo.png',
+    shortcut: '/logo.png',
+    apple: '/logo.png',
+  },
   robots: {
     index: true,
     follow: true,
@@ -34,7 +39,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/logo.png" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
